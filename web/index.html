@@ -11,21 +11,10 @@
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/css.css">
     <title>Alise Ponsero</title>
-	<script js>
-		$( document ).ready(function() {
-		console.log( "ready!" );
-		});
-		/* affix the navbar after scroll below header */
-		$('nav').affix({
-			offset: {
-				top: $('#services').offset().top
-			}
-		});	
-	</script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav id="nav" class="navbar fixed-top navbar-expand-sm" data-spy="affix">
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="-50">
+<nav id="nav" class="navbar fixed-top navbar-expand-sm">
     <div class="container">
         <a href="#page-top" class="navbar-brand">Alise PONSERO</a>
         <a class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</a>
@@ -46,32 +35,93 @@
 		<div class="row h-100 align-items-center">
 			<div class="col-12 text-center">
 				<h1 class="font-weight-light">Professional portfolio</h1>
-				<button type="button" class="btn-primary-outline" href="#about" >Learn more</button>
+				<a href="#About" class="btn btn-outline-dark btn-lg" role="button" aria-pressed="true">Learn more</a>
 			</div>
 		</div>
 	</div>
 </section>
 <section id="About">
-    <div class="container">
-	<!-- besoin d'un padding ici -->
-        <h1>Services.. here is some more content</h1>
-    </div>
+	<div class="container h-100">
+		<div class="row h-100 align-items-center">
+			<div class="col-12 text-center">
+				<h1 class="font-weight-light">About me</h1>
+				<div>
+					<hr>
+				</div>
+				<p> I am an bioinformatician broadly interested in environmental microbiology and metagenomics.</br>
+				  
+				My research experience encompass different topics and interests. I realized a master's degree in fundamental and applied microbiology at the university of Rennes 1, France. 
+				During this master's degree, I realized an intership placement at the university of Tennesse, USA in the laboratory of Dr. S.W. Wilhelm, working on phage-host interactions
+				between cyanobacteria and cyanophages.</br>
+				I went back to France to realize a PhD in molecular and cellular biology in the CEA (center for atomic energy) of Saclay, France. My dissertation focused
+				on understanding intracellular fluxes of glutathion and its impact on protein secretion in yeast.</br>
+				Convinced of the importance of computer science and data analysis skills in today's biological research, I decided to complete a second master's degree in computer science, at the
+				university of Rennes 1, France. During this time, I add the opportunity to perform a placement at the University of Arizona, in the laboratory of Dr. Bonnie Hurwitz.
+				At the end of my master's degree, I joined her lab as a postdoctoral fellow, working on several projects and tools for the analysis of metagenomics datasets.
+				</br>
+				<h3>Research interests</h3></br>
+
+				<div class="row">
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<img src="ressources/Logo_sample.png" alt="microbiology">
+							<h5>Microbiology</h5>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<img src="ressources/Logo_omics.png" alt="microbiology">
+							<h5>Metagenomics</h5>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<img src="ressources/Logo ML.png" alt="microbiology">
+							<h5>Data analysis</h5>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 text-center">
+						<div class="service-box">
+							<img src="ressources/Logo_integration.png"  alt="microbiology">
+							<h5>Data management</h5>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
 </section>
 <section id="Activities">
-    <div class="container">
-        <h1>Here is some more content</h1>
-    </div>
+	<div class="container h-100">
+		<div class="row h-100 align-items-center">
+			<div class="col-12 text-center">
+				<h1 class="font-weight-light">My activities</h1>
+				<div>
+					<hr>
+				</div>
+				<p> Here provide link to the CV, the github, list of publications and the linkedIn page
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
 <section id="Contact">
-    <div class="container">
-        <h1>Here is some more content</h1>
-    </div>
+	<div class="container h-100">
+		<div class="row h-100 align-items-center">
+			<div class="col-12 text-center">
+				<h1 class="font-weight-light">Contact</h1>
+				<div>
+					<hr>
+				</div>
+				<p> Here provide contact informations, link to Hurwitz lab page
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /page content -->
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js"></script>
   <script>
   /* affix the navbar after scroll below header */
