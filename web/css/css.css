@@ -14,6 +14,14 @@ body {
   background-position: top center;
 }
 
+.last {
+  height:25vh;
+  min-height:10px;
+  background-size:cover;
+  background-image:url('../ressources/cropped_saguaro_west.jpg');
+  background-position: top center;
+}
+
 .affix {
   background-color: #eee;
   -webkit-transition:padding 0.2s ease-out;
@@ -40,7 +48,7 @@ nav .navbar-brand {
    color: #000;
 }
 
-section {
-  height:calc(90% - 50px);
-  height: 90vh;
+#container-main {
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
