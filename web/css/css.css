@@ -10,7 +10,7 @@ body {
   height:100vh;
   min-height:400px;
   background-size:cover;
-  background-image:url('../ressources/saguaro_west.jpg');
+  background-image:url('../ressources/banner1.png');
   background-position: top center;
 }
 
@@ -18,7 +18,7 @@ body {
   height:25vh;
   min-height:10px;
   background-size:cover;
-  background-image:url('../ressources/cropped_saguaro_west.jpg');
+  background-image:url('../ressources/herbier_chassagne_cropped_edited.jpg');
   background-position: top center;
 }
 
@@ -51,4 +51,51 @@ nav .navbar-brand {
 #container-main {
     padding-top: 70px;
     padding-bottom: 30px;
+}
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #B0C4DE ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #B0C4DE;
+    border-bottom:5px solid #B0C4DE;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #B0C4DE;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
 }
