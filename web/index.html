@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/css.css">
     <title>Alise Ponsero</title>
 </head>
@@ -78,7 +78,7 @@
 					<hr>
 				</div>
 			</div>
-
+			
               <div class="row">
                 <div class="col-xs-12 ">
                   <nav>
@@ -95,72 +95,116 @@
 						<div class="col-12 text-center">
 						  <h3 class="font-weight-light">Current research interests</h3>
 						</div>
-						<div class="col-12 text-left">
+						<div class="col-12 text-left"></br>
 							<h5 class="font-weight-light" >Viral hunting in metagenomes</h5>
 							<p></br>Understanding the role and distribution of viruses in ecosystems is critical and metagenomics offers new avenues. 
 							To explore the viral biodiversity and ecology, a number of bioinformatic tools perform a high-level taxonomic (viral or cellular origin) assignment of metagenomic sequences. 
-							They aim to provide means to collect all viral sequences in a metagenome and help the discovery of new viral groups. 
+							These tools aim to allow to collect all viral sequences in a metagenome and help the discovery of new viral groups. 
 							While many tools rely on references databases, new approaches using machine learning and pattern detection techniques have been suggested. 
-							The idea is machine learning model to learn to identify a set of features that signal a viral origin to generalize the identification of all viral sequences.
+							Indeed, machine learning model can be trained to identify a set of features that signal a viral origin to generalize the identification of all viral sequences.</br>
 							As users of these tools, we aim to explore the promise and current limitations of viral detection in metagenomic datasets.
 							</p>
-
-							<h5 class="font-weight-light" >kmer-based de novo metagenomic comparisons</h5>
-							<p></br>Over the last decade, scientists have generated petabytes of genomic data to uncover the role of microbes in dynamic living systems. 
-							Yet, to understand the underlying biological principles that guide the distribution of microbial communities, massive ‘omics datasets need to be compared with 
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.3389/fmicb.2019.00806">Read Ponsero and Hurwitz (2019) 
+							The promises and pitfalls of machine learning for detecting viruses in aquatic metagenomes, Frontiers in Microbiology</a></br>
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1016/j.virusres.2017.10.019">Read Hurwitz , Ponsero, Thornton, U’Ren (2017) 
+							Phage Hunters: computational strategies for finding phages in large-scale ‘omics datasets, Virus research (Review article)</a></br>
+							
+							</br>
+							<h5 class="font-weight-light" >kmer-based <i>de novo</i> metagenomic comparisons</h5>
+							<p></br>Over the last decade, scientists have generated petabytes of metagenomic data allowing an unprecedented description of the role of microbes in their ecosystems. 
+							However, to understand the underlying biological principles that guide the distribution of microbial communities, massive ‘omics datasets need to be compared with 
 							environmental factors to find linkages across space and time. 
 							In order to examine the complete genomic content, metagenomic samples can be compared using their sequence signature (or frequency of k-mers). 
-							This approach relies on three core tenets of k-mer–based analytics: (i) closely related organisms share k-mer profiles and cluster together, making taxonomic 
-							assignment unnecessary; (ii) k-mer frequency is correlated with the abundance of an organism; and (iii) k-mers of sufficient length can be used to distinguish 
-							specific organisms.
+							These <i>de novo</i> approaches allow the comparison of complete metagenomes set to each other without relying on annotation or assembly. 
 							</p>
 
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1093/gigascience/giy165">Read Choi, Ponsero, Bomhoff, Youens-Clark, Hartman and Hurwitz (2019) 
+							Libra: scalable k-mer based tool for massive all-vs-all metagenome comparisons, GigaScience</a></br>
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1093/gigascience/giy165">Read Choi, Ponsero, Bomhoff, Youens-Clark, Hartman and Hurwitz (2018) 
+							 Libra: Improved Partitioning Strategies for Massive Comparative Metagenomics Analysis. In Proceedings of the 9th Workshop on Scientific Cloud Computing </a>
+							</br>
+
+							</br>
 							<h5 class="font-weight-light" >FAIR principle applied to metagenomic datasets</h5>
-							<p></br>Oceanographic research cruises provide abundant physical, chemical, and biological data, using a wide range of methods and equipment, 
-							very often through the collaborative efforts of scientists from a range of disparate disciplines. These research endeavors span across a broad 
-							array of disciplines and are critical to investigating questions related to the interplay between biological, geological, and chemical processes in the 
-							ocean systems over space and time. The advent of sequencing technologies allows for an analysis of gene expression in a variety of environmental settings, 
-							to measure the distribution and significance of metabolites and lipids in organisms and the environment.
-								Importantly, although scientists carefully curate and share their data with collaborators to advance individual studies and publications, no systematic, 
-								unifying framework currently exists to integrate ‘omics data with physical, geological, geochemical, and biological datasets standardly used by the broader 
-								geoscience community. In this context, the development of resources to promote the publication of oceanic ‘omics datasets along with their physio-chemical 
-								information is critical.
+							<p></br>Oceanographic research cruises are collaborative efforts providing critical physical, chemical, and biological data ('omics data and non-omics measurements). 
+							These research expeditions span across a broad array of disciplines and are critical to investigating the interplay between biological, geological, and 
+							chemical processes in the ocean.</br>
+							Importantly, although scientists carefully curate and share their data with collaborators to advance individual studies and publications, no systematic, 
+							unifying framework currently exists to integrate ‘omics data with physical, geological, geochemical, and biological datasets standardly used by the broader 
+							geoscience community. In this context, the development of resources to promote the publication of oceanic ‘omics datasets along with their physio-chemical 
+							information is critical.</br>
 
-								Moreover, the Planet Microbe project aims to provide community tools to support the publication and analysis of new oceanic datasets. 
-								Modern data publication requires the user to meet FAIR data standards to ensure data are Findable Accessible, Interoperable, and Reusable (FAIR), however, 
-								few tools are currently available for the user to ensure the data are meeting these important standards. Planet Microbe aims to provide tools to evaluate private 
-								datasets against these standards and promote the integration of new data in standard data repositories.
-							</p>
+							We aim to develop Planet Microbe, a web platform for the integration of 'omics datasets in their broader environmental context.
+							Moreover, the project aims to provide community tools to support the publication and analysis of new oceanic datasets. 
+							Modern data publication requires the user to meet FAIR data standards to ensure data are Findable Accessible, Interoperable, and Reusable (FAIR), however, 
+							few tools are currently available for the user to ensure the data are meeting these important standards. Planet Microbe aims to provide tools to evaluate private 
+							datasets against these standards and promote the integration of new data in standard data repositories.</p>
+
+							<i class="fas fa-angle-double-right"></i>
+							<a href="http://www.planetmicrobe.org/">Discover Planet Microbe </a>
+							</br>
 						</div>
 					</div>
 
                     <div class="tab-pane fade" id="nav-past" role="tabpanel" aria-labelledby="nav-past-tab">
                       <!-- past scientific interests -->
 						<div class="col-12 text-center">
-						  <h3 class="font-weight-light">Past research interests</h3>
+						  <h3 class="font-weight-light">Past research interests</h3></br>
 						</div>
 						<div class="col-12 text-left">
-							<h5 class="font-weight-light" >redox biology and protein secretion in the yeast S. cerevisiae</h5>
-							<p></br>The endoplasmic reticulum (ER) is the first intracellular compartment of the protein secretion pathway. 
+							<h5 class="font-weight-light" >redox biology and protein secretion in the yeast <i>S. cerevisiae</i></h5>
+							<p></br>The endoplasmic reticulum is the first intracellular compartment of the protein secretion pathway. 
 							Protein maturation in this compartment involves protein folding and post-traductionnal modification including formation of disulfide bonds. 
 							The formation of disulfide bonds is operated by a highly conserved redox relay made of the thiol oxidase Ero1 and the protein disulfide isomerase (PDI). 
-							Ero1p catalyzes disulfide bond formation and relays them by thiol-disulfide exchange to PDI, which in turn oxidizes substrates. 
+							Ero1 catalyzes disulfide bond formation and relays them by thiol-disulfide exchange to PDI, which in turn oxidizes substrates. 
 							Isomerization and terminal reduction of non-native disulfide bonds both rely on a reduction system that remains to be formally identified. 
 							Studies however suggest the importance of reduced glutathione in this reducing system. GSH is small redox tripeptide exclusively synthesized in the cytosol. 
-							In this study we (i) describe the main parameters of glutathione traffic across the ER membrane (ii) identify the main actors involved in the transport and (iii) 
-							analyze the physiological impact of a modification of the ER glutathione redox state
-							</p>
+							My PhD project aimed to
+							(i) describe the main parameters of glutathione traffic across the ER membrane 
+							(ii) identify the main actors involved in the transport and 
+							(iii) analyze the physiological impact of a modification of the ER glutathione redox state
+							</p></br>
 
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1016/j.molcel.2017.08.012">Read Ponsero, Igbaria, Darch, Miled, 
+							Outten, Winther, Palais, D’Autréaux, Delaunay-Moisan andToledano (2017) Endoplasmic Reticulum Transport of Glutathione by Sec61 Is Regulated by Ero1 and Bip. 
+							Molecular Cell</a></br>
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1089/ars.2017.7148"> Read Delaunay-Moisan , Ponsero, Toledano (2017) 
+							Reexamining the function of glutathione in oxidative protein folding and secretion. Antioxidant Redox Signaling (Review article)</a></br>
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://tel.archives-ouvertes.fr/tel-01386426"> Read my PhD thesis (2016) 
+							Contrôle redox de la sécrétion protéique chez Saccharomyces cerevisiae (In French)</a></br>
+
+							</br>
 							<h5 class="font-weight-light" >marine viral ecology</h5>
-							<p></br>A 6-month internship at the university of Tennessee gave me the opportunity to work on the influence of water temperature on the population dynamics of cyanophages. 
+							<p></br>A 6-month internship at the university of Tennessee gave me the opportunity to work on the influence 
+							of water temperature on the population dynamics of cyanophages. 
 							This placement was a great opportunity for me to join a marine scientific expedition to collect samples (POWOW cruise 1).
 							</p>
 
+							<i class="fas fa-angle-double-right"></i>
+							<a href="https://doi.org/10.1128/genomeA.00472-13"> Read Ponsero, Chen, Lennon and Wilhelm (2013) 
+							Complete genome sequence of cyanobacterial siphovirus KBS2A. Genome Announcement.</a></br>
+							<i class="fas fa-angle-double-right"></i>
+							<a href=" https://doi.org/10.1111/1574-6941.12060"> Read Matteson, Rowe, Ponsero, Pimentel, Boyd and Wilhelm (2012) 
+							PCR-based enumeration of highly abundant cyanomyoviridae in marine ecosystems demonstrates ecological relevance. FEMS microbial ecology</a></br>
+
+							</br>
 							<h5 class="font-weight-light" >microbe-plant interaction in soil</h5>
 							<p></br>Two short-term internships allowed me to investigate the interactions of bacteria or fungi and plants, 
 							first in the study of the molecular mecanisms allowing the  establishement of the actinomycete symbiosis with the common alder. 
 							A second short research project was performed on the competition of pseudomonas aeruginosa and the fungi responsible for the take-all disease of wheat.
 							</p>
+
+							<i class="fas fa-angle-double-right"></i>
+							<a href=" https://doi.org/10.1016/j.resmic.2017.12.002"> Read Lurthy, Alloisio, Fournier, Anchisi, Ponsero, Normand, Pujic, Boubakri(2018) 
+							Molecular response to nitrogen starvation by Frankia alni ACN14a revealed by transcriptomics and functional analysis with a fosmid library in Escherichia coli. 
+							Research in microbiology</a></br>
 						</div>
 					</div>
 
@@ -172,17 +216,26 @@
 						</div>
 						<div class="col-12 text-left">
 							<h5 class="font-weight-light" >Scientific heritage</h5>
-							<p></br>The endoplasmic reticulum (ER) is the first intracellular compartment of the protein secretion pathway. 
-							Protein maturation in this compartment involves protein folding and post-traductionnal modification including formation of disulfide bonds. 
-							The formation of disulfide bonds is operated by a highly conserved redox relay made of the thiol oxidase Ero1 and the protein disulfide isomerase (PDI). 
-							Ero1p catalyzes disulfide bond formation and relays them by thiol-disulfide exchange to PDI, which in turn oxidizes substrates. 
-							Isomerization and terminal reduction of non-native disulfide bonds both rely on a reduction system that remains to be formally identified. 
-							Studies however suggest the importance of reduced glutathione in this reducing system. GSH is small redox tripeptide exclusively synthesized in the cytosol. 
-							In this study we (i) describe the main parameters of glutathione traffic across the ER membrane (ii) identify the main actors involved in the transport and (iii) 
-							analyze the physiological impact of a modification of the ER glutathione redox state
+							<p></br>Short project in collaboration with the CNB (cercle Naturaliste Brestois) to evaluate and index the academic herbarium from the University of 
+							Brest (UBO). The herbarium, compting more than 30.000 specimens was collected by Claude and Mireille Moreau at the time of the University's creation around 1960. 
+							The project allowed to shed light on the critical condition of some collections, left unsuppervised for years.
+							
+							The conclusion of this inventory work was published in a botanical journal (see below) and presented to a conference on scientific heritage (colloque Patrimoine scientifique 
+							en Bretagne, 2009).
 							</p>
+							<i class="fas fa-angle-double-right"></i>
+							<a href="http://www.cbnbrest.fr/site/pdf/erica/ERICA_22_2008_26211.pdf"> Read Sawtschuk, Ponsero, Andé-Ormod (2009) Les herbiers du massif armoricain, N°22 E.R.I.C.A. 
+							(Echo régional pour l’inventaire et la conservation Armoricaine) (in French) </a></br>
+							</br>
 
 							<h5 class="font-weight-light" >Scientific outreach and communication</h5>
+							<p></br>
+							</p>
+							<a href="https://www.belial.fr/revue/bifrost-93"> Read J-S Steyer, A Ponsero and R. Lehoucq. (2019) “Les monstres de la science-fiction : 
+							des morphologies et des gènes hors-norme”, Bifrost magazine n°93 (in French) </a></br>
+							</br>
+
+							<h5 class="font-weight-light" >Published translations</h5>
 							<p></br>
 							</p>
 						</div>
@@ -214,25 +267,26 @@
 					<!-- Twitter -->
 					<span class="fa-stack fa-lg">
 					  <a href="https://twitter.com/APonsero" style="color:black"aria-hidden="true">
-					  <i class="fa fa-square-o fa-stack-2x"></i>
-					  <i class="fa fa-twitter fa-stack-1x"></i></a>
+					  <i class="far fa-square fa-stack-2x"></i>
+					  <i class="fab fa-twitter fa-stack-1x"></i></a>
 					</span>
 					<!-- Mail -->
 					<span class="fa-stack fa-lg">
 					  <a href="mailto:aponsero@email.arizona.edu" style="color:black"aria-hidden="true">
+					  <i class="far fa-square fa-stack-2x"></i>
 					  <i class="fa fa-envelope fa-stack-1x"></i></a>
 					</span>
 					<!-- LinkedIn -->
 					<span class="fa-stack fa-lg">
 					  <a href="https://www.linkedin.com/in/alise-ponsero-843b953b/" style="color:black"aria-hidden="true">
-					  <i class="fa fa-square-o fa-stack-2x"></i>
-					  <i class="fa fa-linkedin fa-stack-1x"></i></a>
+					  <i class="far fa-square fa-stack-2x"></i>
+					  <i class="fab fa-linkedin fa-stack-1x"></i></a>
 					</span>
 					<!-- github -->
 					<span class="fa-stack fa-lg">
 					  <a href="https://github.com/aponsero" style="color:black"aria-hidden="true">
-					  <i class="fa fa-square-o fa-stack-2x"></i>
-					  <i class="fa fa-github fa-stack-1x"></i></a>
+					  <i class="far fa-square fa-stack-2x"></i>
+					  <i class="fab fa-github fa-stack-1x"></i></a>
 					</span>
 				</div>
 		</div>	
