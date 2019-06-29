@@ -18,12 +18,12 @@ body {
   height:25vh;
   min-height:10px;
   background-size:cover;
-  background-image:url('../ressources/herbier_chassagne_cropped_edited.jpg');
+  background-image:url('../ressources/herbier_chassagne_cropped_edited.png');
   background-position: top center;
 }
 
 .affix {
-  background-color: #eee;
+  background-color: #B0C4DE;
   -webkit-transition:padding 0.2s ease-out;
   -moz-transition:padding 0.2s ease-out;  
   -o-transition:padding 0.2s ease-out;         
@@ -42,6 +42,7 @@ body {
       transition:all 0.5s ease;  
     }
 }
+
 
 nav .navbar-nav .nav-link,
 nav .navbar-brand {
@@ -62,13 +63,21 @@ nav > .nav.nav-tabs{
 
 }
 
-nav > div a.nav-item.nav-link,
-nav > div a.nav-item.nav-link.active
+nav > div a.nav-item.nav-link
 {
   border: none;
     padding: 18px 25px;
     color:#fff;
     background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#B0C4DE;
     border-radius:0;
 }
 
